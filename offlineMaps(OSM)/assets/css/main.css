@@ -1,0 +1,13 @@
+#city {
+    height: 600px;
+    width: 600px;
+}
+
+#street {
+    height: 400px;
+    width: 400px;
+}
+
+.map {
+    margin: 0 auto;
+}
