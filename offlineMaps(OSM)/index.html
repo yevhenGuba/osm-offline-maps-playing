@@ -2,18 +2,47 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title>Offline OSM Maps</title>
+        <title>Offline OSM Maps Playing</title>
     </head>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <!-- leaflet lib ccs-->
     <link rel="stylesheet" href="libs/leaflet/dist/leaflet.css"/>
     <body>
-        <!-- city map container -->
-        <div id="city" class="map"></div>
-        <!-- street map container -->
-        <div id="street" class="map"></div>
+
+        <div class="map-container">
+            <div class="map-city-online">
+                <h1>Online map</h1><br/>
+
+                <div>
+                    <h2>Online standard map</h2><br/>
+                    <div id="city-online-standard" class="map"></div>
+                </div><br/>
+
+                <div>
+                    <h2>Online custom styled map</h2><br/>
+                    <div id="city-online-custom" class="map"></div>
+                </div>
+            </div>
+
+            <div class="map-city-offline">
+                <h1>Offline map</h1><br/>
+
+                <div>
+                    <h2>Offline map standard</h2><br/>
+                    <div id="city-offline-standard" class="map"></div>
+                </div><br/>
+
+                <div>
+                    <h2>Offline custom styled map</h2><br/>
+                    <div id="city-offline-custom" class="map"></div>
+                </div>
+            </div>
+        </div>
+
         <!-- libs -->
         <script type="text/javascript" src="libs/leaflet/dist/leaflet.js"></script>
+        <!-- scripts -->
         <script type="text/javascript" src="index.js"></script>
+
     </body>
 </html>

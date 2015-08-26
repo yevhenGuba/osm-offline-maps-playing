@@ -1,13 +1,18 @@
-#city {
-    height: 600px;
-    width: 600px;
+.map-container {
+    text-align: center;
 }
 
-#street {
-    height: 400px;
-    width: 400px;
+.map-container h1,h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.map-container > div {
+    float: left;
+    margin-right: 50px;
 }
 
 .map {
-    margin: 0 auto;
+    width: 400px;
+    height: 400px;
 }
