@@ -1,0 +1,14 @@
+{
+  "name": "osm-offline-maps-playing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yevhenGuba/osm-offline-maps-playing",
+  "description": "Demo project with offline map rendering using leaflet",
+  "dependencies": {
+    "leaflet": "~0.7.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs"
+  ]
+}
