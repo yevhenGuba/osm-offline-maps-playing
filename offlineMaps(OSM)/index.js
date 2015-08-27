@@ -11,7 +11,7 @@
                 // tiles were created by Atlas Creator.
                 selector: 'city-online-standard',
                 TILE_SRC: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-                popupMessage: 'This is the center of Kharkiv!',
+                popupMessage: 'This is the center of Kharkiv, online standard map.',
                 currentZoom: 15,
                 latLng: [49.99, 36.23],
                 options: {
@@ -22,7 +22,7 @@
             {
                 selector: 'city-online-custom',
                 TILE_SRC: 'https://a.tiles.mapbox.com/v4/' + MAP_BOX.MAP_ID + '/{z}/{x}/{y}.png?access_token=' + MAP_BOX.API_TOKEN,
-                popupMessage: 'This is the center of Kharkiv!',
+                popupMessage: 'This is the center of Kharkiv, online custom styled map.',
                 currentZoom: 14,
                 latLng: [49.99, 36.23],
                 options: {
@@ -33,7 +33,7 @@
             {
                 selector: 'city-offline-standard',
                 TILE_SRC: 'images/mapTiles/city/{z}/{x}/{y}.png.tile',
-                popupMessage: 'This is the center of Kharkiv!',
+                popupMessage: 'This is the center of Kharkiv, offline standard map.',
                 currentZoom: 13,
                 latLng: [49.99, 36.23],
                 options: {
@@ -44,7 +44,7 @@
             {
                 selector: 'city-offline-custom',
                 TILE_SRC: 'images/mapTiles/cityCustom/{z}/{x}/{y}.png.tile',
-                popupMessage: 'This is the Space Hall location!',
+                popupMessage: 'This is the center of Kharkiv, offline custom styled map.',
                 currentZoom: 13,
                 latLng: [49.99, 36.23],
                 options: {
